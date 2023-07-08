@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Location Landing Page</title>
+  <style>
+    /* CSS styles for the page */
+    *{
+        margin:0;
+        padding:0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #02042a;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      animation: fadeIn 1s ease-in;
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    
+    h1 {
+      font-size: 32px;
+      margin: 0;
+    }
+    
+    main {
+      padding: 20px;
+      animation: slideInUp 1s ease-in;
+    }
+    
+    @keyframes slideInUp {
+      from {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NearBy Location</h1>
+  </header>
+  
+  <main style="display: inline-block; position:relative; background-color:#02042a">
+    <iframe style="" src="https://www.google.com/maps/d/u/0/embed?mid=1XkH5CyBxgh3VHGvuJx3tBdXFY7E-a7o&ehbc=2E312F" width="1600" height="600"></iframe>
+  
+    <div style="position: relative;    left: 18px;bottom: -9px;color:#fff">
+    <h2>About Our Location</h2>
+    <p>Sira Road,Tumkur-572106 Karnataka</p>
+    </div>
+    <div style="position: relative;left: 650px;bottom: 32px;color:#fff">
+    <h2>Visit Us</h2>
+    <p>We are located at:</p>
+    <address>
+     Sira Road,NH-4<br>
+     Tumkur, Karnataka<br>
+      Postal Code
+    </address>
+    </div>
+    
+    <div style="position: relative;left: 1100px;bottom: 138px; color:#fff">
+        <h2>Contact Information</h2>
+        <p>Phone:9835662962<br>
+        Email: rajnishgupta98455@gmail.com</p>
+    </div>
+    
+
+  </main>
+  
+  <script>
+    // You can also use JavaScript to add additional animations or interactivity
+  </script>
+</body>
+</html>
